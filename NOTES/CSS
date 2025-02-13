@@ -1,0 +1,45 @@
+/*Implementation Styles*/
+
+/*inline*/
+<tag style = "css" />
+
+    <html style = "background-color: blue;"> 
+    </html>
+    /*aplies on the element html*/
+
+/*internal*/
+<style>css</style>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title></title>
+            <style>
+                    html{
+                        background-color: red;
+                    }
+            </style>
+        </head>
+
+    </head>
+    /*aplies on the whole page*/
+
+/*external*/
+<link href= "style.css"/>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title></title>
+            <link
+                rel = "stylesheet"
+                href="./styles.css"
+            />
+        </head>
+    </head>
+    /*get the style from a file, aplies on the whole site*/
+
+    /*the file:*/
+    html{
+        background-color: red;
+    }
