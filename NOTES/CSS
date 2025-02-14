@@ -43,3 +43,14 @@
     html{
         background-color: red;
     }
+
+/*Selectors*/
+/*Aplies to all element of same time*/
+h1{
+    /*css*/
+}
+/*classes (work for different elements)*/
+.red-text{ /*class*/
+    color: red
+}
+<h2 class="red-text">Red</h2>
