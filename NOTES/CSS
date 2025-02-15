@@ -1,4 +1,4 @@
-/*Implementation Styles*/
+/*Implementation Styles ---------------------------------------------------------- */
 
 /*inline*/
 <tag style = "css" />
@@ -44,7 +44,8 @@
         background-color: red;
     }
 
-/*Selectors*/
+/*Selectors ------------------------------------------------------------------ */
+
 /*Aplies to all element of same time*/
 h1{
     /*css*/
