@@ -50,8 +50,26 @@
 h1{
     /*css*/
 }
+
 /*classes (work for different elements)*/
-.red-text{ /*class*/
+.red-text{ /*on css file*/
     color: red
 }
-<h2 class="red-text">Red</h2>
+<h2 class="red-text">Red</h2>/*on html file*/
+
+/*ID selector: can be put on only one element*/
+#main{ /*on css file*/
+    color:red
+}
+
+<h2 id = "main">RED</h2>/*on html file*/
+
+/*Attribute (or value) selector: */
+p[draggable="false"]{ /*select all draggable <p> element*/
+    color:red
+}
+
+/* universal: aplies on everything where the stylesheet is aplied */
+*{
+
+}
