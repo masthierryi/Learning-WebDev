@@ -1,0 +1,74 @@
+/*Implementation Styles ---------------------------------------------------------- */
+
+/*inline*/
+<tag style = "css" />
+
+    <html style = "background-color: blue;"> 
+    </html>
+    /*aplies on the element html*/
+
+/*internal*/
+<style>css</style>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title></title>
+            <style>
+                    html{
+                        background-color: red;
+                    }
+            </style>
+        </head>
+
+    </head>
+    /*aplies on the whole page*/
+
+/*external*/
+<link href= "style.css"/>
+
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title></title>
+            <link
+                rel = "stylesheet"
+                href="./styles.css"
+            />
+        </head>
+    </head>
+    /*get the style from a file, aplies on the whole site*/
+
+    /*the file:*/
+    html{
+        background-color: red;
+    }
+
+/*Selectors ------------------------------------------------------------------ */
+
+/*Aplies to all element of same time*/
+h1{
+    /*css*/
+}
+
+/*classes (work for different elements)*/
+.red-text{ /*on css file*/
+    color: red
+}
+<h2 class="red-text">Red</h2>/*on html file*/
+
+/*ID selector: can be put on only one element*/
+#main{ /*on css file*/
+    color:red
+}
+<h2 id = "main">RED</h2>/*on html file*/
+
+/*Attribute (or value) selector: */
+p[draggable="false"]{ /*select all draggable <p> element*/
+    color:red
+}
+
+/* universal: aplies on everything where the stylesheet is aplied */
+*{
+
+}

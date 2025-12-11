@@ -1,0 +1,41 @@
+<h1> <!--to--> </h6>            <!--headings-->
+<p></p>                         <!-- paragraph -->
+<hr/>                           <!-- horizontal rule -->
+
+<br />                          <!-- break-->
+ 
+<! list ---------------------------------------------------------------------------->
+<ul>
+    <li>
+        <ol>
+            <li><!--item--></li>
+        </ol>                   <!--number list-->
+    </li>                       <!--%indented in line item-->
+    <li><!--item--></li> 
+</ul>                           <!--dot list-->
+
+<! anchor: drag, link -------------------------------------------------------------->
+<a attribute=value></a>         <!-- href (link); download; media; target; -->
+
+<! img ----------------------------------------------------------------------------->
+<img src=""/>                   <!-- alt; width; longdesc; -->
+
+<! Boilerplate --------------------------------------------------------------------->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+
+    <body>
+    </body>
+</head>
+
+<! relative folder navigating ------------------------------------------------------>
+<!--        fa  -> 1                    -->
+<!--            -> fb -> 2              -->
+<!--                  -> index (i)      -->
+<!--                 -> fc -> 3         -->
+<!--        i to 3: c/3                 -->
+<!--        i to c: ./2                 -->
+<!--        i to 1: ../1                -->
